@@ -1,0 +1,68 @@
+body{
+overflow-x: hidden;
+}
+
+a,
+i,
+span{
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+section{
+    padding: 50px 0;
+}
+
+a:hover, a:focus,
+i:hover,
+i:focus,
+span:hover,
+span:focus {
+  text-decoration: none;
+}
+
+canvas{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;        
+}
+
+.page{
+    background: #EEF5F9;
+}
+
+.page .text-white{
+    color:#fff;
+}
+
+.no-padding{
+    padding:0 !important;
+}
+
+.no-padding-top{
+    padding-top: 0 !important;
+}
+
+.no-padding-bottom{
+    padding-bottom: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+  }
+  
+  .no-margin-bottom {
+    margin-bottom: 0 !important;
+  }
+  
+  .no-margin-top {
+    margin-top: 0 !important;
+  }
+  
+  .page {
+    overflow-x: hidden;
+  }
+
